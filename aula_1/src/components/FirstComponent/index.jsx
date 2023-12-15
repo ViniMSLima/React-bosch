@@ -1,4 +1,5 @@
-import style from "./styles.css"
+import style from "styles.css";
+
 export default function CR7(){
     return(
         <div className="App">
