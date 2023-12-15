@@ -14,11 +14,11 @@ export default function Counter() {
 
     return (
         <div>
-            <button class="minusBtn" onClick={minus}>-</button>
+            <button className="minusBtn" onClick={minus}>-</button>
 
             <p>{num}</p>
 
-            <button class="plusBtn" onClick={plus}>+</button>
+            <button className="plusBtn" onClick={plus}>+</button>
         </div>
     )
 }
